@@ -1,9 +1,13 @@
-import './App.css'
+import Footer from './Footer'
+import Hero from './Hero'
+import Menu from './Menu'
 
 function App() {
   return (
     <>
-    <h1 className='underline' >Hello world!</h1>
+    <Hero/>
+    <Menu/>
+    <Footer/>
     </>
   )
 }
