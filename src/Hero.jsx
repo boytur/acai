@@ -67,7 +67,7 @@ function Hero() {
               >
                 เมนู
               </Link>
-              <button className="w-full h-[3rem] flex justify-center items-center gap-1 m-1 hover:scale-105 border border-black rounded-full shadow-md mt-3 md:mt-0">
+              <button className="w-full h-[3rem] flex justify-center items-center gap-1 m-1 hover:scale-105 border border-black rounded-full shadow-md mt-5 lg:mt-1">
                 <p>ติดต่อเรา</p>
                 <GoArrowUpRight />
               </button>
