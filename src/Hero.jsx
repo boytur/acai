@@ -11,7 +11,7 @@ function Hero() {
     visible: { opacity: 1, y: 0 },
   };
   const variantsRight = {
-    hidden: { opacity: 0, x: 100, rotate: -100 },
+    hidden: { opacity: 0, x: 100, rotate: -20 },
     visible: { opacity: 1, x: 0, rotate: 0 },
   };
   const variantsButtom = {
