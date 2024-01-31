@@ -23,7 +23,7 @@ function Hero() {
     <>
       <section
         id="hero"
-        className="hero w-full h-full flex justify-center bg-white"
+        className="hero w-full h-full flex justify-center bg-white text-[#2c3c23]"
       >
         <div className="max-w-screen-xl w-full lg:flex md:p-5">
           {/* Img */}
