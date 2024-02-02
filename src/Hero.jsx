@@ -3,6 +3,8 @@ import heroImg from "./assets/hero img.webp";
 import { Link } from "react-scroll";
 import { GoArrowUpRight } from "react-icons/go";
 import { CiDeliveryTruck } from "react-icons/ci";
+import { BsHandThumbsUp } from "react-icons/bs";
+import { CiFaceSmile } from "react-icons/ci";
 import "../src/App.css";
 
 function Hero() {
@@ -55,9 +57,10 @@ function Hero() {
             </div>
             <div className="p-2">
               <p>
-                acai bowl is Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Ipsum inventore beatae autem illum expedita modi tempora
-                explicabo.
+                อาซาอิคือ
+                ผลไม้ที่ขึ้นในป่าดิบชื้นของประเทศแถบอเมริกากลางและอเมริกาใต้
+                อาซาอิอุดมไปด้วยสารอาหารที่จำเป็นต่อร่างกายมากมาย
+                จึงเป็นที่มาให้หมู่คนรักสุขภาพนิยมรับประทานผลไม้ชนิดนี้
               </p>
             </div>
             <div className="lg:flex justify-between w-full mt-2 gap-4">
@@ -84,8 +87,8 @@ function Hero() {
             transition={{ duration: 1 }}
             className="flex flex-col items-center text-[#7a8b6f]"
           >
-            <CiDeliveryTruck size={50} color="#7a8b6f" />
-            <p>จัดส่งรวดเร็ว</p>
+            <BsHandThumbsUp size={45} color="#7a8b6f" />
+            <p>สะดวก</p>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -95,7 +98,7 @@ function Hero() {
             className="flex flex-col items-center text-[#7a8b6f]"
           >
             <CiDeliveryTruck size={50} color="#7a8b6f" />
-            <p>คิดไม่ออก</p>
+            <p>รวดเร็ว</p>
           </motion.div>
           <motion.div
             initial="hidden"
@@ -104,8 +107,8 @@ function Hero() {
             transition={{ duration: 1 }}
             className="flex flex-col items-center text-[#7a8b6f]"
           >
-            <CiDeliveryTruck size={50} color="#7a8b6f" />
-            <p>คิดไม่ออก</p>
+            <CiFaceSmile size={50} color="#7a8b6f" />
+            <p>สุขภาพดี</p>
           </motion.div>
         </div>
       </div>
